@@ -8,14 +8,11 @@ var userChoice = prompt("Rock! Paper! Scissors!-Choose R, P, or S");
     if (userChoice != "S") {alert("Choose game options!")};
 
 //TODO: randomly select computer choice, store in variable
-var computerChoice = Math.random();
-    if (computerChoice < 0.34) {computerChoice = "R";
-    } else if(computerChoice <= 0.67) {computerChoice = "P";
-    } else { computerChoice = "S";
-    }
+var choiceArray = ["R", "P", "S"];
+var computerChoice = choiceArray[Math.floor(Math.random()*choiceArray.length)];
     //possible choices include R, P, S
 //TODO: compare user and computer choce
-var compare = funtion(userChoice,computerChoice);{
+var compareResults = (userChoice,computerChoice);{
     if(userChoice=computerChoice){alert("Tie")};
     if(userChoice="R") + (computerChoice="S");{alert("Rock wins")};
     if(userChoice="R") + (computerChoice="P");{alert("Paper wins")};
