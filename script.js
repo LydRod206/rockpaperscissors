@@ -17,10 +17,10 @@ var computerChoice = Math.random();
 //TODO: compare user and computer choce
 var compare = funtion(userChoice,computerChoice);{
     if(userChoice=computerChoice){alert("Tie")};
-    if(userChoice="R") + (computerChoice="S"){alert("Rock wins")};
-    if(userChoice="R") + (computerChoice="P"){alert("Paper wins")};
-    if(userChoice="P") + (computerChoice="R"){alert("Paper wins")};
-    if(userChoice="P") + (computerChoice="S"){alert("Scissors win")};
+    if(userChoice="R") + (computerChoice="S");{alert("Rock wins")};
+    if(userChoice="R") + (computerChoice="P");{alert("Paper wins")};
+    if(userChoice="P") + (computerChoice="R");{alert("Paper wins")};
+    if(userChoice="P") + (computerChoice="S");{alert("Scissors win")};
 }
     //if user = rock and comp = scissors or user = scissors and comp = paper or user = paper and comp = rock, user wins
     //if user
